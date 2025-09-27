@@ -18,14 +18,10 @@ if (Q.economic_growth) {
 
 [+ month : month +] [+ year +]
 
-Resources available in my pockets: [+ resources +]
+Party funds: [+ resources +]
 
-SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
-[? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_left_front and spd_in_government: Left Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
+Ruling coalition: Centre coalition [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?]
 
-[? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
-
-[? if spd_in_government and (in_left_front or in_popular_front): KPD coalition dissent: [+ kpd_coalition_dissent : coalition_dissent +] ?]
 
 Internal dissent: [+ dissent_percent : dissent +]
 
@@ -33,7 +29,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 President: [+ president +]
 
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
+Prime minister: [+ chancellor +] ([+ chancellor_party +])
 
 Reichstag composition:
 
@@ -75,18 +71,38 @@ Economic growth: [+ economic_growth_2 +]%
 
 = Inter-party Relations
 
+#GDR 
+{!<span class="tooltip-text" title="German Democratic Party">!}[? if not ddp_name: GDR?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Center Party">Z</span>!}: [+ z_relation : relationships +]
+#LFI
+{!<span class="tooltip-text" title="Communist Party of Germany">LFI</span>!}: [+ kpd_relation : relationships +]
 
-{!<span class="tooltip-text" title="German Democratic Party">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_relation : relationships +]
+#EELV - LE in october 2023
+{!<span class="tooltip-text" title="German People's Party">[+ green_name +]</span>!}: [+ dvp_relation : relationships +]
 
-{!<span class="tooltip-text" title="German People's Party">DVP</span>!}: [+ dvp_relation : relationships +]
+#PS and affiliated
+{!<span class="tooltip-text" title="German National People's Party">PS</span>!}: [+ dnvp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Communist Party of Germany">KPD</span>!}: [+ kpd_relation : relationships +]
+#LREM - RE - EPR
+{!<span class="tooltip-text" title="German Democratic Party">[+ Macron_name +]</span>!}: [+ z_relation : relationships +]
 
-{!<span class="tooltip-text" title="German National People's Party">DNVP</span>!}: [+ dnvp_relation : relationships +]
+#Modem
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">[+ Modem_name +]</span>!}: [+ nsdap_relation : relationships +]
 
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_relation : relationships +]
+#Horizons
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">[+ Horizons_name +]</span>!}: [+ nsdap_relation : relationships +]
+
+#LR
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">[+ LR_name +]</span>!}: [+ nsdap_relation : relationships +]
+
+#Cioti
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">[+ Cioti_name +]</span>!}: [+ nsdap_relation : relationships +]
+
+#RN
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">RN</span>!}: [+ nsdap_relation : relationships +]
+
+Others
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">others</span>!}: [+ nsdap_relation : relationships +]
 
 = Internal Factions of the SPD
 
