@@ -1,0 +1,8 @@
+title: 2027
+subtitle: A new year
+tags: event
+view-if: year = 2027 and month = 1
+priority: 2
+max-visits: 1
+
+A new year begins.

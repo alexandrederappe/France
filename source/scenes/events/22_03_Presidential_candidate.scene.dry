@@ -1,0 +1,58 @@
+title: 2024 Presidential Candidate
+subtitle: The 
+view-if: year = 2022 and month = 3 
+on-arrival: presidential_candidates=0
+max-visits: 1
+tags: event
+new-page: true
+
+= 2024 Presidential Candidate
+
+As presidential election approach, parties have begun to gather their supporters, as 500 mayors signatures are required to run. However many moderate are granting support to their opponent to avoid a disqualification of a radical party that would be seen as a failure of the democratic system
+
+The major parties are voting on their officiall Candidate
+
+
+- @Macron: Five more years ?
+- @RN: A Le Pen again ?
+- @LR: Can the right recover ?
+- @the_Z: The Outsider rises
+- @Minors: Who else will reach the 500 ?
+- @Left_front: The left begins talks
+
+@Macron
+view-if: presidential_candidates==0
+on-arrival: presidential_candidates=1
+
+As expected, Emmanuel Macron will of course for a second term, as allwed by the constitution. He represents the liberals and enjoys a strong advantage thanks to his first mandate, even if the centre-left. He is supported by his party, La République en Marche, and his coalition partners: Mouvement Démocrate and Horizons.
+
+@RN
+view-if: presidential_candidates==1
+on-arrival: presidential_candidates=2
+
+Unsurprisingly, Marine Le Pen was appointed as candidate by the Rassemblement National. As always, all other parties have denounced their ideology and called to a Republican Front against the RN. This is the 8th time in a row, since 1981 that a Le Pen is candidate for the RN.
+
+@LR
+view-if: presidential_candidates==2
+on-arrival: presidential_candidates=3
+
+Les Républicains, heirs of the Gaullist ideology, have been marginalized recently after their former candidate, Francois fillon was caught in a scandal during the last presidential elections. Today few would bet on a recovery from the party that held a majority only ten years ago
+
+@the_Z
+view-if: presidential_candidates==3
+on-arrival: presidential_candidates=4
+
+Eric Zemmour, a far right figure has managed to gain support entering in politics a few month ago with an ultra radical program, based on his racial theory of "The Great Replacement". After several polls predicted a 10% result, he finally managed to secure the 500 signatures, including some from centrists.
+
+@Minors
+view-if: presidential_candidates==4
+on-arrival: presidential_candidates=5
+
+On the left, Nathalie Arthaud, leader of the Lutte Ouvrière, Philippe Poutou from the NPA and Fabien Roussel from the PCF have sucessefully passed the 500 threshold and are now candidate.
+
+On the Right, Jean Lassale for the RES and Nicolas Dupont-Aignan of the DLF have both secured ther place in the 1st round.
+
+None of these parties has any chance to win the election but due to their radical or populist rethoric, they refused to support any other party.
+
+@Left_front
+
