@@ -88,14 +88,14 @@ view-if: 1==0
 
 Yanick Jadot (EELV) polled first in the primary, followed by Melenchon of LFI
 
-- @Left_front_fails_out:
+- @Left_front_fails_out: This is not good...
 
 @Left_front_fails_Melenchon
 view-if: 1==0
 
 Jean-Luc Melenchon (LFI) polled first in the primary, followed by Yanick Jadot of EELV
 
-- @Left_front_fails_out:
+- @Left_front_fails_out: This is not good...
 
 @Left_front_suceeds
 view-if: 1==0
