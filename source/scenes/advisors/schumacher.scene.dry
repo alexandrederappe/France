@@ -6,10 +6,3 @@ view-if: schumacher_advisor = 1
 new-page: true 
 
 = Kurt Schumacher
-
-A Great War veteran and a neorevisionist leader, Kurt Schumacher argues for a strong resistance against the Nazis.
-
-- @emergency_fundraising
-- @build_reichsbanner
-- @moderate_economic_plan
-- @root: Return to main
