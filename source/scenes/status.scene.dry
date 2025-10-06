@@ -31,7 +31,7 @@ President: [+ president +]
 
 Prime minister: [+ chancellor +] ([+ chancellor_party +])
 
-Reichstag composition:
+Parliament composition:
 
 # 1928: 30, 1930: 25, 1932: 22
 {!<span class="tooltip-text" title="Social Democratic Party of Germany">SPD</span>!}: [+ spd_r +]%
@@ -80,7 +80,7 @@ Economic growth: [+ economic_growth_2 +]%
 #EELV - LE in october 2023
 {!<span class="tooltip-text" title="German People's Party">[+ green_name +]</span>!}: [+ dvp_relation : relationships +]
 
-#PS and affiliated
+#PS 
 {!<span class="tooltip-text" title="German National People's Party">PS</span>!}: [+ dnvp_relation : relationships +]
 
 #LREM - RE - EPR
@@ -95,14 +95,10 @@ Economic growth: [+ economic_growth_2 +]%
 #LR
 {!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">[+ LR_name +]</span>!}: [+ nsdap_relation : relationships +]
 
-#Cioti
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">[+ Cioti_name +]</span>!}: [+ nsdap_relation : relationships +]
+#RN they do not like you
+RN: 0
 
-#RN
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">RN</span>!}: [+ nsdap_relation : relationships +]
-
-Others
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">others</span>!}: [+ nsdap_relation : relationships +]
+# Others to not have an opinion
 
 = Internal Factions of the SPD
 
