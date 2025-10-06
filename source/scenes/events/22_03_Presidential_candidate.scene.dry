@@ -1,4 +1,4 @@
-title: 2024 Presidential Candidate
+title: 2022 Presidential Candidate
 subtitle: The parties choose their candidate
 view-if: year = 2022 and month = 3 
 on-arrival: presidential_candidates=0
