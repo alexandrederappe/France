@@ -10,26 +10,30 @@ if (Q.advisor_action_timer <= 0) {
     Q.pinnedCardsDescription = 'Advisors - next action available in ' + Q.advisor_action_timer + ' months.';
 }
 !}
-max-cards: 3
-
-#Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
-
+max-cards: 4
 
 - @party
 - @govt
 - #advisor
-- @shuffle_leadership_pinned
+- @shuffle_leadership
 
 @party
 title: Party Affairs
-card-image: img/Vorwaerts_nr_1.png
+card-image: img/party.png
 is-deck: true
 
 - #party_affairs
 
+@left_cooperation
+title: Left Cooperation
+card-image: img/left.jpg
+is-deck: true
+
+- #govt_affairs
+
 @govt
 title: Government Affairs
-card-image: img/reichstag_2.jpg
+card-image: img/govt.jpg
 is-deck: true
 
 - #govt_affairs
