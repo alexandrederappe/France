@@ -24,8 +24,8 @@ is-deck: true
 
 - #party_affairs
 
-@left_cooperation
-title: Left Cooperation
+@Cooperation
+title: Left Parties Affairs
 card-image: img/left.jpg
 is-deck: true
 
