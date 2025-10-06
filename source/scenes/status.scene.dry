@@ -195,6 +195,15 @@ RN: [+ rn_votes +]%
 #Others
 Others: [+ other_votes +]%
 
+# https://www.insee.fr/fr/statistiques/6453692?sommaire=6453776
+# If you dont agree with my analysis fuck you
+#Rural	            20  %
+#Average            25  %
+#Upper              10  %
+#Lower              22.5  %
+#Retired            22.5  %
+#Total              100 %
+
 
 #**Detailed results for each demographic**
 #
@@ -213,9 +222,3 @@ Others: [+ other_votes +]%
 #Support for the Republic: [+ pro_republic_disp +]%
 #
 
-
-#Upper class
-#Retired
-#Poor 
-#Rural 
-#Minorities
