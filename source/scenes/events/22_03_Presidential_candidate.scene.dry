@@ -10,7 +10,7 @@ new-page: true
 
 As presidential election approach, parties have begun to gather their supporters, as 500 mayors signatures are required to run. However many moderate are granting support to their opponent to avoid a disqualification of a radical party that would be seen as a failure of the democratic system
 
-The major parties are voting on their officiall Candidate
+The major parties are voting on their official Candidate
 
 
 - @Macron: Five more years ?
@@ -39,11 +39,15 @@ Les Républicains, the traditional right wing party have been marginalized recen
 
 
 - @the_Z: The Outsider rises
+
 @the_Z
+
 Eric Zemmour, a far right figure has managed to rise after entering in politics a few month ago, with an populist program based on his racial theory of "The Great Replacement". After several polls predicted a 10% vote for his party Reconquete, he finally managed to secure the 500 signatures.
 
 - @Minors: Who else will reach the 500 ?
+
 @Minors
+
 For the left, Nathalie Arthaud, leader of the Lutte Ouvrière, Philippe Poutou from the NPA and Fabien Roussel from the PCF have sucessefully passed the 500 threshold and are now candidate.
 
 For the Right, Jean Lassale for the RES and Nicolas Dupont-Aignan of the DLF have both secured ther place in the 1st round.
@@ -52,3 +56,48 @@ None of these parties has any chance to win the election but due to their radica
 
 The only real contenders are LFI and a joint EELV-PS candidate. However maybe a left front could emerge?
 
+- @Left_front_fails: The Popular Primary does not gather support!
+- @Left_front_fails: LFI anounces support for the Popular Primary!
+
+@Left_front_fails
+
+The different supporters of the left have initiated a primary to propose a common candidate after the failure of 2017 elections, where the left did not reached the second turn as their vote was spitted among the PS and LFI candidates.
+
+The candidates are the one of all left parties except PCF, LO and NPA, and independents, yet most of the candidates refused to participate and anounced they would not withraw their candidature.
+
+- @Left_front_fails_Taubira: And the winner is...
+- @Left_front_fails_Jadot: And the winner is...
+- @Left_front_fails_Melenchon: And the winner is...
+
+@Left_front_fails_Taubira
+
+Christanne Taubira (independent) polled first in the primary, followed by Yanick Jadot of EELV, and Melenchon of LFI
+
+- @Left_front_fails_critical: This is not good...
+
+@Left_front_fails_Jadot
+view-if: 1==0
+
+Yanick Jadot (EELV) polled first in the primary, followed by Melenchon of LFI
+
+- @Left_front_fails_out:
+
+@Left_front_fails_Melenchon
+view-if: 1==0
+
+Jean-Luc Melenchon (LFI) polled first in the primary, followed by Yanick Jadot of EELV
+
+- @Left_front_fails_out:
+
+@Left_front_suceeds
+view-if: 1==0
+
+The LFI has announced they will support the Popular Primary, and will withraw in favor of the winner, regarless of it's party. EELV and PS immediately anounced their support.
+
+@Left_front_fails_critical
+
+Christanne Taubira failed to collect the required signatures. As a result Jadot claimed the leadership of the left as he polled second in the primary. However the PS and LFI decided to run their own candidates, Anne Hidalgo and Jean-Luc Mélenchon.
+
+@Left_front_fails_out
+
+placeholder
